@@ -23,3 +23,10 @@ function appendKitten(name){
 
   return moreKittens
 }
+function prependKitten(name){
+  var moreKittens = [name,...kittens]
+  return moreKittens
+}
+function removeLastKitten(){
+  
+}
